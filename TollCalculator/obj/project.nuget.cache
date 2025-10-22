@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "JjIAttm344M=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\smw221\\OneDrive - AFRY\\Documents\\GitHub\\toll-calculator\\TollCalculator\\TollCalculator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\smw221\\.nuget\\packages\\nager.date\\2.12.0\\nager.date.2.12.0.nupkg.sha512",
+    "C:\\Users\\smw221\\.nuget\\packages\\nager.licensesystem\\1.2.0\\nager.licensesystem.1.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

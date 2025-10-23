@@ -13,4 +13,3 @@ C:\Users\smw221\OneDrive - AFRY\Documents\GitHub\toll-calculator\TollCalculator\
 C:\Users\smw221\OneDrive - AFRY\Documents\GitHub\toll-calculator\TollCalculator\obj\Debug\net8.0\TollCalculator.pdb
 C:\Users\smw221\OneDrive - AFRY\Documents\GitHub\toll-calculator\TollCalculator\obj\Debug\net8.0\TollCalculator.genruntimeconfig.cache
 C:\Users\smw221\OneDrive - AFRY\Documents\GitHub\toll-calculator\TollCalculator\obj\Debug\net8.0\ref\TollCalculator.dll
-C:\Users\smw221\OneDrive - AFRY\Documents\GitHub\toll-calculator\TollCalculator\obj\Debug\net8.0\TollCalculator.csproj.AssemblyReference.cache

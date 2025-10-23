@@ -15,13 +15,14 @@
         {
             DateTime intervalStart = dates[0];
             int totalFee = 0;
+            int nextFee;
+            int tempFee;
             foreach (DateTime date in dates)
             {
-                int nextFee = GetTollFee(date, vehicle);
-                int tempFee = GetTollFee(intervalStart, vehicle);
+                nextFee = GetTollFee(vehicle,date);
+                tempFee = GetTollFee(vehicle, intervalStart);
 
-                long diffInMillies = date.Millisecond - intervalStart.Millisecond;
-                long minutes = diffInMillies / 1000 / 60;
+                double minutes = (date - intervalStart).TotalMinutes;
 
                 if (minutes > 60)
                 {
@@ -52,7 +53,7 @@
             return vehicle.IsTollFree;
         }
 
-        public static int GetTollFee(DateTime date, Vehicle vehicle)
+        public static int GetTollFee(Vehicle vehicle, DateTime date)
         {
             if (IsTollFreeDate(date) || IsTollFreeVehicle(vehicle)) return 0;
 
@@ -75,9 +76,7 @@
 
         private static bool IsTollFreeDate(DateTime date)
         {
-            
-            return DateHandler.IsPublicHoliday(date);
+            return DateHandler.IsPublicHoliday(date) || DateHandler.IsWeekend(date);
         }
-
     }
 }
